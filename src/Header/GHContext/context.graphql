@@ -1,0 +1,33 @@
+{
+  viewer {
+    login
+    avatarUrl
+    organizations(first: 10) {
+      nodes {
+        login
+        avatarUrl
+        teams(first: 10, role: MEMBER) {
+          pageInfo {
+            endCursor
+            hasNextPage
+            hasPreviousPage
+            startCursor
+          }
+          totalCount
+          nodes {
+            name
+            url
+          }
+        }
+        url
+      }
+      pageInfo {
+        hasNextPage
+        startCursor
+        endCursor
+        hasPreviousPage
+      }
+      totalCount
+    }
+  }
+}

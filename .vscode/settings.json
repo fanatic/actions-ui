@@ -1,0 +1,8 @@
+{
+  "editor.formatOnSave": true,
+  "debug.toolBarLocation": "hidden",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
